@@ -1,3 +1,4 @@
+"use strict";
 function dataShow() {
 	document.querySelectorAll("[data-show]").forEach(elem => {
 		const result = eval(elem.dataset.show);
